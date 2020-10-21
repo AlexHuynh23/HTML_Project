@@ -1,0 +1,16 @@
+body {
+  background: url('RTF_Logo.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+footer {
+  text-align: center;
+  font-size: small;
+  background-color: white;
+  overflow: hidden;
+  bottom: 0px;
+  position: fixed;
+  height: 100px
+}
