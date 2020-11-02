@@ -1,16 +1,31 @@
 body {
-  background: url('RTF_Logo.jpg') no-repeat center center fixed;
+  background: url('background.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
-footer {
-  text-align: center;
-  font-size: small;
-  background-color: white;
-  overflow: hidden;
-  bottom: 0px;
-  position: fixed;
-  height: 100px
+
+p {
+   font-size: 300px;
+}
+
+img {
+    width: 100%;
+}
+  h3 {
+  color: white;
+}
+.container-fluid { 
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-top:100px;
 }
